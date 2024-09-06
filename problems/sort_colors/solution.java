@@ -10,10 +10,10 @@ class Solution {
         }
 
         int idx = 0;
-        for (int color = 0; color < 3; color++) {
-            int freq = count.get(color);
+        for (int i = 0; i < 3; i++) {
+            int freq = count.get(i);
             for (int j = 0; j < freq; j++) {
-                nums[idx] = color;
+                nums[idx] = i;
                 idx++;
             }
         }        
