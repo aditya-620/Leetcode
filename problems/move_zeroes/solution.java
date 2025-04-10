@@ -10,5 +10,15 @@ class Solution {
                 left++;
             }
         }
+        // for(int i=0; i<nums.length; i++){
+        //     if(nums[left] != 0){
+        //         left++;
+        //     }
+        //     else if(nums[left] == 0 && nums[i] != 0){
+        //         nums[left] = nums[i];
+        //         nums[i] = 0;
+        //         left++;
+        //     }
+        // }
     }
 }
